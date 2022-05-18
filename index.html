@@ -1,10 +1,58 @@
 <html>
-    <body style="background-color: rgb(0, 75, 250);">
-        <div style="margin: 50px;
-                    background-color: rgba(255, 255, 255, 0.1);
-                    text-align: center;">
-            <h1 style="color: white;">Hunter Waller's Portfolio:</h1>
-            <!--<img style="height: 150px;" src="Portfolio Picture.jpg"/>-->
+
+  <!-- Import of the CSS only files for Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- Import Noto Sans Display from Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Import my CSS file -->
+  <link rel="stylesheet" href="./styles.css">
+  
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Hunter Waller's Portfolio:</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+          </ul>
         </div>
-    </body>
+      </div>
+    </nav>
+    <div class="container-fluid" id="gridbox">
+      <div class="row">
+        <div class="col col-sm-5">
+          <iframe width="750" height="400" src="https://www.youtube.com/embed/gFKXUX4JGfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <h1><strong>Bio:</strong></h1>
+          <p>
+            Hello, my name is Hunter Waller.  During highschool I started taking Python classes, where I first began programming and was hooked.  This was followed by learning from FreeCodeCamp, where I earned a certificate in Responsive Web Design.  To continue my learning at a higher standard, I started taking the MITxPro course "Certificate in Coding: Full Time" where I have learned to make the page you are currently reading.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1><strong>Contact Information</strong></h1>
+          <p>
+          GitHub Username: <a href="https://github.com/hunterwaller">hunterwaller</a> <br>
+          LinkedIn Profile: <a href="https://www.linkedin.com/in/hunter-waller-11b390237/">Hunter Waller</a> <br>
+          Best Contact: hawaller03@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
+<script>
+
+</script>

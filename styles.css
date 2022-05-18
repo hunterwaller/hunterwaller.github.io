@@ -1,0 +1,50 @@
+
+body {
+  font-family: 'Noto Sans Display', sans-serif;
+  color: black;
+  background-color: darkslategrey;
+}
+
+#navbar {
+  box-shadow: 2px 5px 8px black;
+}
+
+.col {
+  text-align: center;
+  margin: 50px;
+}
+
+#gridbox {
+  height: fit-content;
+  background-color: white;
+  border: 10px;
+  border-style: solid;
+  border-color: grey;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  box-shadow: 5px 5px 10px black;
+}
+
+hr {
+  color: blue;
+  border: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px black;
+  opacity: 75%;
+}
+
+a {
+  color: peru;
+}
+
+a:hover {
+  color: gold;
+}
